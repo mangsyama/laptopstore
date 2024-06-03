@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./img/logo-utama.png">
+</head>
+<body>
+
+<!-- NAVBAR -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logo-navbar.png" alt="Laptop Store Logo">
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+            <label for="menu-toggle" class="menu-toggle">&#9776;</label>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#laptops" class="dropbtn">Laptop Category</a>
+                        <div class="dropdown-content">
+                            <a href="#office-laptops">Office Laptop</a>
+                            <a href="#business-laptops">Business Laptop</a>
+                            <a href="#gaming-laptops">Gaming Laptop</a>
+                        </div>
+                    </li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+<!-- HERO (HEADER IMAGE) -->
+
+    <!-- <section id="home" class="hero">
+        <img src="img/hero.png" alt="Header Image">
+    </section> -->
+
+    <section id="home" class="hero">
+        <img src="img/hero.png" alt="Header Image">
+        <div class="hero-text">
+            <h1>Laptop Store</h1>
+            <p>Website Penjualan Laptop Terpercaya di Indonesia</p>
+        </div>
+    </section>
+    
+
+<!-- CARD PROFDUK -->
+    <main>
+        <section id="office-laptops" class="product-section">
+            <h2>Office Laptop</h2> <br>
+            <div class="cards">
+                <!-- Card template -->
+                <div class="card">
+                    <img src="img/office1.jpeg" alt="Office Laptop 1">
+                    <h3>MacBook Air M2 (2022)</h3>
+                    <p class="price"><s>Rp 16.999.000</s> Rp 15.999.000</p>
+                    <button onclick="window.location.href='https://ibox.co.id/product/macbook-air-m2-2022-ibox'">View Details</button>
+                </div>
+                
+
+                <div class="card">
+                    <img src="img/office2.jpg" alt="Office Laptop 1">
+                    <h3>Surface Pro 9 with 5G</h3>
+                    <p class="price"><s>Rp45.000.000</s> Rp41.500.000</p>
+                    <button onclick="window.location.href='https://www.tokopedia.com/fanzoell/microsoft-surface-pro-9-with-5g-lte-13-sq-3-ram-16gb-ssd-512-or-256-16-512-tab-only?utm_source=google&utm_medium=organic&utm_campaign=pdp-seo'">View Details</button>
+                </div>
+                <div class="card">
+                    <img src="img/office3.jpg" alt="Office Laptop 1">
+                    <h3>ASUS ExpertBook B6</h3>
+                    <p class="price"><s>Rp57.599.000 </s> Rp47.999.000</p>
+                    <button onclick="window.location.href='https://id.store.asus.com/asus-expertbook-b6-asus-expertbook-b6.html?gad_source=4&gclid=CjwKCAjwgdayBhBQEiwAXhMxtr4ebIyEWqYpCzZJY3iYIyKXNNzFQn8DXPJt0T7sWLVHNshdRaqLShoCFjUQAvD_BwE'">View Details</button>
+                </div>
+
+                <!-- More cards as needed -->
+            </div>
+        </section>
+
+        <section id="business-laptops" class="product-section">
+            <h2>Business Laptop</h2> <br>
+            <div class="cards">
+                <!-- Card template -->
+                <div class="card">
+                    <img src="img/bisnis1.jpg" alt="Business Laptop 1">
+                    <h3>MacBook Pro M2 (2022)</h3>
+                    <p class="price"><s>Rp 21.999.000</s> Rp 17.999.000</p>
+                    <button onclick="window.location.href='https://ibox.co.id/product/macbook-pro-m2-2022'">View Details</button>
+                </div>
+                <div class="card">
+                    <img src="img/bisnis2.png" alt="Business Laptop 1">
+                    <h3>Zenbook Pro 14 Duo OLED (UX8402)</h3>
+                    <p class="price"><s>Rp 39.999.000</s> Rp 38.999.000</p>
+                    <button onclick="window.location.href='https://www.asus.com/id/laptops/for-creators/zenbook/zenbook-pro-14-duo-oled-ux8402/'">View Details</button>
+                </div>
+                <div class="card">
+                    <img src="img/bisnis3.jpeg" alt="Business Laptop 1">
+                    <h3>HP Elite Dragonfly G3</h3>
+                    <p class="price"><s>Rp18.999.000</s> Rp16.199.000</p>
+                    <button onclick="window.location.href='https://www.tokopedia.com/rogsstoreid/hp-elite-dragonfly-13-g3-touch-core-i7-1265-16gb-1tb-w11pro-13-5fhd-no-bundle-e5880'">View Details</button>
+                </div>
+                <!-- More cards as needed -->
+            </div>
+        </section>
+
+        <section id="gaming-laptops" class="product-section">
+            <h2>Gaming Laptop</h2> <br>
+            <div class="cards">
+                <!-- Card template -->
+                <div class="card">
+                    <img src="img/gaming2.jpg" alt="Gaming Laptop 1">
+                    <h3>Acer Predator Helios 700</h3>
+                    <p class="price"><s>Rp40.000.000</s> Rp35.699.000</p>
+                    <button onclick="window.location.href='https://www.tokopedia.com/alienwareofficial/acer-predator-helios-700-ph717-i7-9750-32gb-1tb-512ssd-rtx2080-8gb?extParam=ivf%3Dfalse%26src%3Dsearch&refined=true'">View Details</button>
+                </div>
+                <div class="card">
+                    <img src="img/gaming1.jpg" alt="Gaming Laptop 1">
+                    <h3>ASUS ROG Zephyrus G14</h3>
+                    <p class="price"><s>Rp24.999.000 </s> Rp23.999.000</p>
+                    <button onclick="window.location.href='https://id.store.asus.com/rog/90nr0eg2-m001a0-ga402nj-r735k6g-o.html'">View Details</button>
+                </div>
+
+                <div class="card">
+                    <img src="img/gaming3.jpg" alt="Gaming Laptop 1">
+                    <h3>Lenovo Legion 7I</h3>
+                    <p class="price"><s>Rp29.000.000</s> Rp26.999.000</p>
+                    <button onclick="window.location.href='https://www.tokopedia.com/itcompudata/lenovo-legion-7i-15imh05-i7-10750-16gb-512ssd-rtx2070-8gb-win10?utm_source=google&utm_medium=organic&utm_campaign=pdp-seo'">View Details</button>
+                </div>
+                <!-- More cards as needed -->
+            </div>
+        </section>
+
+        
+<!-- CONTACT US -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="social-media-buttons">
+                <a href="https://facebook.com" class="social-button facebook">Facebook</a>
+                <a href="https://twitter.com" class="social-button twitter">Twitter</a>
+                <a href="https://instagram.com" class="social-button instagram">Instagram</a>
+            </div>
+        </section>
+    </main>
+
+
+
+<!-- Popup Templates -->
+    <div id="office1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('office1')">&times;</span>
+            <h3>Office Laptop 1</h3>
+            <p>Details about Office Laptop 1.</p>
+        </div>
+    </div>
+    
+
+    <div id="business1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('business1')">&times;</span>
+            <h3>Business Laptop 1</h3>
+            <p>Details about Business Laptop 1.</p>
+        </div>
+    </div>
+
+    <div id="gaming1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('gaming1')">&times;</span>
+            <h3>Gaming Laptop 1</h3>
+            <p>Details about Gaming Laptop 1.</p>
+        </div>
+    </div>
+
+
+<!--footer-->
+<section id="footer">
+    <div class="footer">
+        <div class="main">
+            <div class="list">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#office-laptops">Office Laptops</a></li>
+                    <li><a href="#business-laptops">Business Laptops</a></li>
+                    <li><a href="#gaming-laptops">Gaming Laptops</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li>Denpasar, Bali</li>
+                    <li>+62 851-2345-6789</li>
+                    <li>laptopstore@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="end-text">
+        <p>Copyright &#169;2024 All right reserved | Made by I Komang Syama Sundara </p>
+    </div>
+</section>
+
+
+
+</body>
+</html>
